@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-26T19:41:07+08:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">WordPress错误</title><link href="/christina/update/2021/04/26/wordpressError.html" rel="alternate" type="text/html" title="WordPress错误" /><published>2021-04-26T19:08:00+08:00</published><updated>2021-04-26T19:08:00+08:00</updated><id>/christina/update/2021/04/26/wordpressError</id><content type="html" xml:base="/christina/update/2021/04/26/wordpressError.html">&lt;p&gt;今天想要安装新主题时提示了错误：上传的文件尺寸超过upload_max_filesize文件中定义的php.ini值。&lt;/p&gt;
+
+&lt;p&gt;解决方法：修改/etc/php/7.4/apache2/php.ini文件（这里的版本根据自己的php版本不同需要自己改变）&lt;/p&gt;
+
+&lt;p&gt;其中post_max_size设定为64M，upload_max_filesize也设定为64M，即可解决上传文件的问题&lt;/p&gt;
+
+&lt;p&gt;但是在这之后又出现了新的问题：无法建立目录wp-content/uploads/2020/08。有没有上级目录的写权限？&lt;/p&gt;
+
+&lt;p&gt;在查询资料之后，找到了解决方法：&lt;/p&gt;
+
+&lt;p&gt;首先更改wordpress数据库中的wp_options字段&lt;/p&gt;
+
+&lt;p&gt;update wp_options set option_value = “wp-content/uploads” where option_name = “upload_path”;&lt;/p&gt;
+
+&lt;p&gt;然后在wordpress目录下更改权限&lt;/p&gt;
+
+&lt;p&gt;chmod 777 ./wp-content&lt;/p&gt;
+
+&lt;p&gt;即可解决没有权限的问题&lt;/p&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">今天想要安装新主题时提示了错误：上传的文件尺寸超过upload_max_filesize文件中定义的php.ini值。</summary></entry><entry><title type="html">Welcome to Jekyll!!!</title><link href="/jekyll/update/2021/04/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!!!" /><published>2021-04-26T19:00:00+08:00</published><updated>2021-04-26T19:00:00+08:00</updated><id>/jekyll/update/2021/04/26/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2021/04/26/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
