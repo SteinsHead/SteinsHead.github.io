@@ -1,6 +1,0 @@
-I"h<p>今天突然发现了MarkDown的新功能，就是md格式支持插入html代码，真是非常有意思，下面是相关功能的演示</p>
-
-<p>我们都知道md插入图片的功能如何实现：</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![a short description]()
-</code></pre></div></div>
-:ET

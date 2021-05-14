@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "关于一些智障操作导致的SpringBoot问题"
-date:   1970-01-01 00:00 +0800
+date:   1970-01-01 00:01 +0800
 categories: christina update
 ---
 今天后端基本完成，想要在postman上测试远程连接时遇到了问题：body总是没法成功传上去。

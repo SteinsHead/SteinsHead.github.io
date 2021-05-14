@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "使用VSCode进行Java开发配置"
-date:   1970-01-02 00:00 +0800
+date:   1970-01-02 00:01 +0800
 categories: christina update
 ---
 最近尝试使用VSCode进行代码的写作，想要学习前端相关技术，同时想找到一个能代替idea的ide，idea实在是太过庞大了233

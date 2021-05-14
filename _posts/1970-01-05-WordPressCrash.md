@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Word Press似乎出现了一些问题"
-date:   1970-01-05 00:00 +0800
+date:   1970-01-05 00:01 +0800
 categories: christina update
 ---
 当我想要在摘要里加入一些奇奇怪怪的东西的时候，他会崩溃
