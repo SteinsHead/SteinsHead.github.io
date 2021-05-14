@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-26T19:41:07+08:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">WordPress错误</title><link href="/christina/update/2021/04/26/wordpressError.html" rel="alternate" type="text/html" title="WordPress错误" /><published>2021-04-26T19:08:00+08:00</published><updated>2021-04-26T19:08:00+08:00</updated><id>/christina/update/2021/04/26/wordpressError</id><content type="html" xml:base="/christina/update/2021/04/26/wordpressError.html">&lt;p&gt;今天想要安装新主题时提示了错误：上传的文件尺寸超过upload_max_filesize文件中定义的php.ini值。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-14T15:15:51+08:00</updated><id>/feed.xml</id><title type="html">christina’s little blog</title><subtitle>This is christina's little blog for writing something interesting or just sharing something happen in daily life.</subtitle><entry><title type="html">发现了MarkDown的新功能</title><link href="/christina/update/2021/05/14/markdownNewFound.html" rel="alternate" type="text/html" title="发现了MarkDown的新功能" /><published>2021-05-14T13:25:00+08:00</published><updated>2021-05-14T13:25:00+08:00</updated><id>/christina/update/2021/05/14/markdownNewFound</id><content type="html" xml:base="/christina/update/2021/05/14/markdownNewFound.html">&lt;p&gt;今天突然发现了MarkDown的新功能，就是md格式支持插入html代码，真是非常有意思，下面是相关功能的演示&lt;/p&gt;
+
+&lt;p&gt;我们都知道md插入图片的功能如何实现：&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![a short description](the url of the picture)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;但是这样插入的图片往往是默认靠左的，比如下面这个例子
+&lt;img src=&quot;/assets/img/drink.jpg&quot; alt=&quot;kerisu drink water&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这里我们可以使用html代码来让图片居中显示&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div align=&quot;center&quot;&amp;gt;&amp;lt;img src=&quot;the picture url&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;效果就像下面这样所示&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/drink.jpg&quot; /&gt;&lt;/div&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">今天突然发现了MarkDown的新功能，就是md格式支持插入html代码，真是非常有意思，下面是相关功能的演示</summary></entry><entry><title type="html">WordPress错误</title><link href="/christina/update/2021/04/26/wordpressError.html" rel="alternate" type="text/html" title="WordPress错误" /><published>2021-04-26T19:08:00+08:00</published><updated>2021-04-26T19:08:00+08:00</updated><id>/christina/update/2021/04/26/wordpressError</id><content type="html" xml:base="/christina/update/2021/04/26/wordpressError.html">&lt;p&gt;今天想要安装新主题时提示了错误：上传的文件尺寸超过upload_max_filesize文件中定义的php.ini值。&lt;/p&gt;
 
 &lt;p&gt;解决方法：修改/etc/php/7.4/apache2/php.ini文件（这里的版本根据自己的php版本不同需要自己改变）&lt;/p&gt;
 
@@ -32,4 +44,175 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Christina的plog第四周</title><link href="/christina/update/1970/01/11/Plog4.html" rel="alternate" type="text/html" title="Christina的plog第四周" /><published>1970-01-11T00:00:00+08:00</published><updated>1970-01-11T00:00:00+08:00</updated><id>/christina/update/1970/01/11/Plog4</id><content type="html" xml:base="/christina/update/1970/01/11/Plog4.html">&lt;p&gt;今天是2021年4月13日，是我正式复习考研的第四周，为什么今天才开始写上周的总结笔记呢？这是因为我到了今天才想起来这个事情，我觉得还是养成这样一个写笔记的习惯比较好，进入4月之后我觉得天气往返不定，复习的心情也起伏不定，再加上从北京回来之后心情仍保留着旅游的兴奋心情，所以这周的复习进度也是十分的缓慢，但是好在最后这周还是有所进度，最后我在这周的末尾做完了660题的高数填空题部分，也算是为了这段事件的忙碌划上了一个句号&lt;/p&gt;
+
+&lt;p&gt;这周除了学习上有所进度，我还做出了一个重大决定，就是五一的时候决定和我的小可爱一起出去旅游，这也是这段时间的最开心的事情了，我这周为了这件事情想了很久，也做了很多计划，现在的每一天都非常的开心的，而且也感觉有了继续努力下去的动力&lt;/p&gt;
+
+&lt;p&gt;​在这周，买了人生中第一双AJ，感觉非常的帅气和好看，我准备在五一去和小可爱一起旅游的时候穿上它，在五一的时候我准备和小可爱一起拍一套照片，我觉得非常有纪念意义&lt;/p&gt;
+
+&lt;p&gt;​这周的日子过得非常的平淡，不一样的事情是去参观了东软公司，在那里了解到了新中国第一批做软件行业的人的心酸和无奈，以及后来依附于国家需求来实现个人价值的理念，不过唯一感觉不太好的一点是，后来有一个人上台给我们讲了一下未来软件行业发展的未来趋势，但是据我个人感觉，这个人讲述的事情和软件行业的发展不太相符，更多的是对于未来行业的发展趋势的预测，而且很多趋势都离我们非常的遥远，仅仅只能当作我们未来职业发展的比较长远的一个规划，唔姆，我认为这些比较像是对于投资人的说服行为，但是我还不是一个投资人哈哈哈哈哈哈哈&lt;/p&gt;
+
+&lt;h4 id=&quot;本周的学习情况&quot;&gt;本周的学习情况&lt;/h4&gt;
+
+&lt;p&gt;complete Task&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;复习全书做完了高数的填空题，开始写了线代部分，线代部分感觉比较简单&lt;/li&gt;
+  &lt;li&gt;英语由于在北京游玩的日子里没有时间背单词，这一周比较折磨，但是仍然坚持每天背50个单词&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;uncompleted Task&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;复习全书高数部分还是感觉欠缺一点，以后还是应该将注意力放在高数部分&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">今天是2021年4月13日，是我正式复习考研的第四周，为什么今天才开始写上周的总结笔记呢？这是因为我到了今天才想起来这个事情，我觉得还是养成这样一个写笔记的习惯比较好，进入4月之后我觉得天气往返不定，复习的心情也起伏不定，再加上从北京回来之后心情仍保留着旅游的兴奋心情，所以这周的复习进度也是十分的缓慢，但是好在最后这周还是有所进度，最后我在这周的末尾做完了660题的高数填空题部分，也算是为了这段事件的忙碌划上了一个句号</summary></entry><entry><title type="html">Christina的plog第三周</title><link href="/christina/update/1970/01/10/Plog3.html" rel="alternate" type="text/html" title="Christina的plog第三周" /><published>1970-01-10T00:00:00+08:00</published><updated>1970-01-10T00:00:00+08:00</updated><id>/christina/update/1970/01/10/Plog3</id><content type="html" xml:base="/christina/update/1970/01/10/Plog3.html">&lt;p&gt;今天是2021年4月4日，是我正式复习考研的第三周，进入4月，也就是对于我来说，我最终参与考研的日子还剩八个半月，这样一想还是挺慌的对不对，但是我毕竟是当代带学生，虽然时间剩不了多少了，但是该浪还是得浪，秉持着这样的方针，我去了一趟北京，在这一趟旅行中，我获得了来自各个方面的力量，也能够更好的面对将来该面对的一切&lt;/p&gt;
+
+&lt;p&gt;​	首先还是需要说一下复习的进度，由于受到一些事情的影响，我复习的进度还是十分缓慢，虽然已经开始做了660题，但是每天做的数量还是没有很快的提升，尽管知道是处于初级的做题阶段，但是最主要的原因还是自己没有进入一个认真做题的状态，也就是心里仍旧是存在杂念，因此下一周的主要任务是摒弃心中的杂念，认真的开始复习计划&lt;/p&gt;
+
+&lt;p&gt;​	从这一周开始，我准备上传一些图片配合文章，这样会有一个比较好的阅读效果，此后如果想要翻阅这些从前的纪念文章，也能唤起一些记忆&lt;/p&gt;
+
+&lt;p&gt;​	前提也就说到这里，接下来我就说一下这几天北京之行的一些见闻&lt;/p&gt;
+
+&lt;p&gt;​	由于天津与北京相距很近（也就是高铁半小时的距离），因此我也没有准备很多的东西，一个背包也就装下了我全部的东西&lt;/p&gt;
+
+&lt;p&gt;​	到了北京的第一天，最后的结局，也就是两个人去网吧，第一天我的旅行没有开始启程&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2021/BBQ.jpg&quot; alt=&quot;烤肉店&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2021/regular_meat.jpg&quot; alt=&quot;整齐的烤肉&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​	在北京的第二天，我们接到了我们的同伴，然后我们去了后海玩，在后海看到了放风筝的老人&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2021/kite.jpg&quot; alt=&quot;很长很长的风筝&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;河流中荡漾着微波，能反射出夕阳的光芒&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2021/ground_lake.jpg&quot; alt=&quot;后海&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;夜景的小桥也是十分的好看&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2021/bridge.jpg&quot; alt=&quot;夜景小桥&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我们在后海边排排站，拍了一个声势浩大的照片&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2021/mmexport1617543375085.jpg&quot; alt=&quot;集体合照&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">今天是2021年4月4日，是我正式复习考研的第三周，进入4月，也就是对于我来说，我最终参与考研的日子还剩八个半月，这样一想还是挺慌的对不对，但是我毕竟是当代带学生，虽然时间剩不了多少了，但是该浪还是得浪，秉持着这样的方针，我去了一趟北京，在这一趟旅行中，我获得了来自各个方面的力量，也能够更好的面对将来该面对的一切</summary></entry><entry><title type="html">Christina的plog第二周</title><link href="/christina/update/1970/01/09/Plog2.html" rel="alternate" type="text/html" title="Christina的plog第二周" /><published>1970-01-09T00:00:00+08:00</published><updated>1970-01-09T00:00:00+08:00</updated><id>/christina/update/1970/01/09/Plog2</id><content type="html" xml:base="/christina/update/1970/01/09/Plog2.html">&lt;p&gt;今天是2021年3月28日，是我正式复习考研的第二周，这一周在复习全书上看完了数二的基本内容，但是有些不求甚解的意味，没有认真的看完每个知识点，只是囫囵吞枣的看完了相关的知识，后期我准备开始做660题，同时在做错题的基础上继续复习知识点，考研是一件非常严肃的事情，因此需要把知识点认真的理解透才能顺利复习下去&lt;/p&gt;
+
+&lt;p&gt;​	这周在复习的时候明显感觉到心不在焉，由于学校的学习生活也逐渐进入了正轨，所以会有各种事情发生来影响我的学习进度，当然这其中绝大部分的原因都是在我自己没有摆正心态，经常想着玩乐，逃避学习的痛苦的方面，自己没有进入学习状态自然也就会容易被外物所影响，后面的学习中应该注意到这一点，逐渐养成学习习惯，逐渐进入学习的状态&lt;/p&gt;
+
+&lt;p&gt;​	今天去找了本科期间觉得不错的老师了解了考研的相关情况，老师给我们的感觉还是这件事如果认真投入心力的话还是不难的，因此这也给我们提供了一种力量吧，让我能够继续复习下去，进入复试之后就会有很大的概率被录取，因此首要的任务还是提高自己的考研成绩，让自己能够通过初试&lt;/p&gt;
+
+&lt;p&gt;​	《社会契约论》不愧是法国大革命的先导书，内容有些晦涩难懂，但是相比于之前的几本哲学书，这上面的内容以及非常的容易理解了，这本书的主要任务是构建一个理想中的和谐社会，这个和谐社会不会存在任何的压迫和欺凌，每个人都是自由的，自由的存在在社会中，每个人都为了自己的自由为这个社会做贡献，是一个非常理想化的社会，因此就会像玻璃瓶一样轻松的破碎，如果这其中任何一个人打破了所谓的“契约”，那么整个社会就会化为一盘散沙，为了后来的社会主义发展打下了基本的基础&lt;/p&gt;
+
+&lt;p&gt;​	最近感受到很大的压力，来自于各个方面，希望后期能够缓解这些压力，很快的进入学习状态&lt;/p&gt;
+
+&lt;h4 id=&quot;本周的学习情况&quot;&gt;本周的学习情况&lt;/h4&gt;
+
+&lt;p&gt;complete Task&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;复习全书看完了数二部分，开始做660题，错题仍然很多&lt;/li&gt;
+  &lt;li&gt;英语每天都保持背了50个单词，这几天复习的单词数变为了100，感受到了很大的压力，希望之后还能继续坚持&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;uncompleted Task&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;复习全书复习完之后很多知识还是一知半解，感觉效果不是很好&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">今天是2021年3月28日，是我正式复习考研的第二周，这一周在复习全书上看完了数二的基本内容，但是有些不求甚解的意味，没有认真的看完每个知识点，只是囫囵吞枣的看完了相关的知识，后期我准备开始做660题，同时在做错题的基础上继续复习知识点，考研是一件非常严肃的事情，因此需要把知识点认真的理解透才能顺利复习下去</summary></entry><entry><title type="html">Christina的plog第一周</title><link href="/christina/update/1970/01/08/Plog1.html" rel="alternate" type="text/html" title="Christina的plog第一周" /><published>1970-01-08T00:00:00+08:00</published><updated>1970-01-08T00:00:00+08:00</updated><id>/christina/update/1970/01/08/Plog1</id><content type="html" xml:base="/christina/update/1970/01/08/Plog1.html">&lt;p&gt;本人写这个plog的原因也是受到一个学姐的启发，用来记录自己每一周都干了啥，以及将来的一周准备干些啥&lt;/p&gt;
+
+&lt;p&gt;​	今天是2021年3月21日，是我正式开始考研复习的第一周，距离考研初试时间还有大概9个月的时间。开始准备考研的时间伴随着兴奋，但是也伴随着疑惑和些许的疲倦，在这开始考研的日子，我很幸运的找到了一起准备考研的研友，我可爱的舍友，一个在数学上能够指导我很多的人。很多考研人后期会感到无聊和疲倦，感到无法继续坚持下去，这时候就是需要一个可以一起奋斗的研友互相鼓励下去，才能够熬过最黑暗的时候，才能够一直坚持下去。人类本身就是社会性的动物，如果离群而居也能够去生活，但是最后还是有能一起走下去的同伴的人才会走的更远&lt;/p&gt;
+
+&lt;p&gt;​	这周的时间过得很快，同时也感受到考研的时候也会经常感觉无法坚持下去的原因，就是感觉枯燥乏味，但是还经常能够用内心的意志来压抑自己想要玩乐的本能，同时也初步的养成了一些习惯&lt;/p&gt;
+
+&lt;p&gt;​	但是数学的复习感觉开始匆匆掠过了，没有之前的认真和仔细，也可能是看到的知识点太多了导致开始匆忙复习，后期还是需要看视频网课来巩固基础，同时也需要刷题来提高做题的速度和准确率&lt;/p&gt;
+
+&lt;p&gt;​	这周借了一本书，卢梭的《社会契约论》，这本书被誉为法国大革命的预言书和指导书，作为开始学习社会政治相关的问题的初始读本来说是十分合适的，我也准备开始看一些相关书籍用来提升自己的相关知识水平&lt;/p&gt;
+
+&lt;h4 id=&quot;本周的学习情况&quot;&gt;本周的学习情况&lt;/h4&gt;
+
+&lt;p&gt;complete Task&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;复习全书基础版看到了微分方程，后面准备开始准备高数下册的多元函数微分学的内容&lt;/li&gt;
+  &lt;li&gt;英语开始背单词了，每天稳定50个单词的背记和复习，已经坚持了5天&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;uncomplete Task&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;基本都完成了既定目标&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;希望之后能继续坚持写下去&lt;/p&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">本人写这个plog的原因也是受到一个学姐的启发，用来记录自己每一周都干了啥，以及将来的一周准备干些啥</summary></entry><entry><title type="html">书单</title><link href="/christina/update/1970/01/07/BookShelf.html" rel="alternate" type="text/html" title="书单" /><published>1970-01-07T00:00:00+08:00</published><updated>1970-01-07T00:00:00+08:00</updated><id>/christina/update/1970/01/07/BookShelf</id><content type="html" xml:base="/christina/update/1970/01/07/BookShelf.html">&lt;p&gt;整理出一些书单，用以提升自己的精神境界，让自己可以从一个比较客观的角度来看待这个世界&lt;/p&gt;
+
+&lt;p&gt;《善恶的彼岸》&lt;/p&gt;
+
+&lt;p&gt;《论道德的谱系》&lt;/p&gt;
+
+&lt;p&gt;《悲剧的诞生》&lt;/p&gt;
+
+&lt;p&gt;《查拉图斯特拉如是说》&lt;/p&gt;
+
+&lt;p&gt;《论人与人不平等的起源与基础》&lt;/p&gt;
+
+&lt;p&gt;《社会契约论》&lt;/p&gt;
+
+&lt;p&gt;《思想录》&lt;/p&gt;
+
+&lt;p&gt;《大众的反叛》&lt;/p&gt;
+
+&lt;p&gt;《经济与社会》&lt;/p&gt;
+
+&lt;p&gt;《规矩与惩罚》&lt;/p&gt;
+
+&lt;p&gt;《监狱的诞生》&lt;/p&gt;
+
+&lt;p&gt;《乌合之众》&lt;/p&gt;
+
+&lt;p&gt;《被背叛的革命》&lt;/p&gt;
+
+&lt;p&gt;《论法的精神》&lt;/p&gt;
+
+&lt;p&gt;《非此即彼》&lt;/p&gt;
+
+&lt;p&gt;《战争论》&lt;/p&gt;
+
+&lt;p&gt;《资本论》&lt;/p&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">整理出一些书单，用以提升自己的精神境界，让自己可以从一个比较客观的角度来看待这个世界</summary></entry><entry><title type="html">关于选择</title><link href="/christina/update/1970/01/06/AboutChoose.html" rel="alternate" type="text/html" title="关于选择" /><published>1970-01-06T00:00:00+08:00</published><updated>1970-01-06T00:00:00+08:00</updated><id>/christina/update/1970/01/06/AboutChoose</id><content type="html" xml:base="/christina/update/1970/01/06/AboutChoose.html">&lt;p&gt;个人感觉时常对于一个人应该做的事或者对于未来的规划，我自己时常会陷入矛盾之中，更简单的说是一种患得患失的精神状态。&lt;/p&gt;
+
+&lt;p&gt;当自己选择了其中一个分支，便时常会想起另一个可能的选择上，自己会有什么结果，自己若是选择了另一个分支，生活会不会有所改变，生活会不会变得更好之类的。&lt;/p&gt;
+
+&lt;p&gt;说到这里便会涉及到一个概念，那就是哪个选择是对自己来说是更好的，这是一个非常主观的事情，对于每个人来说，他所认为的——当前对自己来说——最好的选择可能在其他人看来不值一提，因为每个人的生活环境和思想观念都是不一样的，所以在评价选择时所选取的价值量也是不一样的，也就是说，每个人在做出决定的时候，通常都是做出的对于自己来说当前最大化的优化选择。&lt;/p&gt;
+
+&lt;p&gt;上面的例子是一个非常个人化的例子，但是有些时候个人的选择会被周围的人所左右（比如爸妈不断的劝说，或者七大姑八大姨的潜移默化的影响，或者周围的情报的传递对于个人选择的影响），也许这些影响确实会对一个人心里的价值天平做出自己的影响，但是归根结底，最后做出决定时，还是一个人用他心里的价值来衡量这件事情的价值高低，最后做出决定。&lt;/p&gt;
+
+&lt;p&gt;但是有种例外情况，我们可以称之为“道德”或者“正义”，一个人在普世的价值观的影响下，做出不符合自己个人利益的选择，我们可以称之为“奉献”（当然在一定程度上也是反映了个人的选择，所以也可以说是个人的选择）。&lt;/p&gt;
+
+&lt;p&gt;以上是论述了个人选择的种种标准，个人在生活中做出选择时也是会有种种困惑，患得患失经常在自己身边缠绕，以至于经常反复思考到底什么选择才是对于自己来说最好的，或者“我当时要是选择那条路就好了”。&lt;/p&gt;
+
+&lt;p&gt;其实对于每个人来说，做出选择的往往不是对于自己来说完全利益最大化的选择，因为收益往往伴随着风险，大多数选择都是规避了风险，伴随着稳定的，较低的收益。所以最后反复后悔的方面往往是没有选择收益更高的那一方面，或者是选择了高风险的那一边却因为风险而失败，从而埋怨自己没有选择稳定的收入那一边。&lt;/p&gt;
+
+&lt;p&gt;或许大部分人都是这样，终其一生对于自己的选择后悔着，最终还是在不断前行，人生的经历就是一段不断后悔的经历，即使嘴上说着自己并不后悔，但是在梦醒时分，还是会对自己有所疑问：到底自己做出的选择是否正确？另一条路上的光景如何？&lt;/p&gt;
+
+&lt;p&gt;罗伯特·弗罗斯特的那首《未选择的路》，或许是对这种心情的真实写照。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2020/1363e69226.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;牧濑红莉栖做演讲的时候，或许也是一种自己的选择&lt;/center&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">个人感觉时常对于一个人应该做的事或者对于未来的规划，我自己时常会陷入矛盾之中，更简单的说是一种患得患失的精神状态。</summary></entry><entry><title type="html">Word Press似乎出现了一些问题</title><link href="/christina/update/1970/01/05/WordPressCrash.html" rel="alternate" type="text/html" title="Word Press似乎出现了一些问题" /><published>1970-01-05T00:00:00+08:00</published><updated>1970-01-05T00:00:00+08:00</updated><id>/christina/update/1970/01/05/WordPressCrash</id><content type="html" xml:base="/christina/update/1970/01/05/WordPressCrash.html">&lt;p&gt;当我想要在摘要里加入一些奇奇怪怪的东西的时候，他会崩溃&lt;/p&gt;
+
+&lt;p&gt;今天，当我在wordpress里的文章摘要里加入我文章开头的一段代码时，出现了错误，如下图所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2020/20201010200702.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;当我的网安大佬们得知这件事之后说：这是xss&lt;/p&gt;
+
+&lt;p&gt;那么什么是xss？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2020/20201010200147.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;维基百科上的解释入上图所示，那么这个问题也就找到了，我的摘要是这样书写的：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;当我开始学习vue的时候，我已经不想在html页面中来加入&amp;lt;script&amp;gt;各种各样的脚本标签
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;注意到了吗，上面出现了html中常用的引入.js文件的标签，因此这就是这次事故的罪魁祸首，也许是wordpress让摘要中的文字直接显示成为了html，关于这一部分的内容，我还要在后面的学习中继续寻找答案&lt;/p&gt;
+
+&lt;p&gt;最后，如何消除这种影响，目前发现的解决办法，是可以通过加入转义符号”\”来消除影响的，但是代价也是有的，我们加入的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt;将不能显示在摘要中&lt;/p&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">当我想要在摘要里加入一些奇奇怪怪的东西的时候，他会崩溃</summary></entry></feed>

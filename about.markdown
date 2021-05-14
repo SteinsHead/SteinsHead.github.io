@@ -1,18 +1,20 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+一个正在挣扎的大三学生，软件工程专业，但是觉得自己没学啥软件工程的知识
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+喜欢二次元，我就是二次元哒~
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+是个老色批，喜欢美图（指涩涩的那种
 
+公主链接咸鱼玩家（现在摸了，最近喜欢上玩方舟了
 
-[jekyll-organization]: https://github.com/jekyll
+想找到自己能一直坚持做下去的爱好，但是目前来看距离目标还是有点远
+
+现在正在绝赞考研和实训中（乘机偷个懒更新一波博客
+
+<!-- 突然发现markdown支持html语法，笑死我了 -->
+<div align="center"><img src="/assets/img/wink.gif"></div>

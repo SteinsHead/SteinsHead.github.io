@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Word Press似乎出现了一些问题 | christina’s little blog</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Word Press似乎出现了一些问题" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="当我想要在摘要里加入一些奇奇怪怪的东西的时候，他会崩溃" />
+<meta property="og:description" content="当我想要在摘要里加入一些奇奇怪怪的东西的时候，他会崩溃" />
+<link rel="canonical" href="/christina/update/1970/01/05/WordPressCrash.html" />
+<meta property="og:url" content="/christina/update/1970/01/05/WordPressCrash.html" />
+<meta property="og:site_name" content="christina’s little blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="1970-01-05T00:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Word Press似乎出现了一些问题" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Word Press似乎出现了一些问题","dateModified":"1970-01-05T00:00:00+08:00","datePublished":"1970-01-05T00:00:00+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"/christina/update/1970/01/05/WordPressCrash.html"},"url":"/christina/update/1970/01/05/WordPressCrash.html","description":"当我想要在摘要里加入一些奇奇怪怪的东西的时候，他会崩溃","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="christina's little blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">christina&#39;s little blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Word Press似乎出现了一些问题</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="1970-01-05T00:00:00+08:00" itemprop="datePublished">Jan 5, 1970
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>当我想要在摘要里加入一些奇奇怪怪的东西的时候，他会崩溃</p>
+
+<p>今天，当我在wordpress里的文章摘要里加入我文章开头的一段代码时，出现了错误，如下图所示：</p>
+
+<p><img src="https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2020/20201010200702.png" alt="img" /></p>
+
+<p>当我的网安大佬们得知这件事之后说：这是xss</p>
+
+<p>那么什么是xss？</p>
+
+<p><img src="https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2020/20201010200147.png" alt="img" /></p>
+
+<p>维基百科上的解释入上图所示，那么这个问题也就找到了，我的摘要是这样书写的：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>当我开始学习vue的时候，我已经不想在html页面中来加入&lt;script&gt;各种各样的脚本标签
+</code></pre></div></div>
+
+<p>注意到了吗，上面出现了html中常用的引入.js文件的标签，因此这就是这次事故的罪魁祸首，也许是wordpress让摘要中的文字直接显示成为了html，关于这一部分的内容，我还要在后面的学习中继续寻找答案</p>
+
+<p>最后，如何消除这种影响，目前发现的解决办法，是可以通过加入转义符号”\”来消除影响的，但是代价也是有的，我们加入的<code class="language-plaintext highlighter-rouge">&lt;script&gt;</code>将不能显示在摘要中</p>
+
+  </div><a class="u-url" href="/christina/update/1970/01/05/WordPressCrash.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">christina&#39;s little blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">christina&#39;s little blog</li><li><a class="u-email" href="mailto:christina@tju.edu.cn">christina@tju.edu.cn</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/SteinsHead"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">SteinsHead</span></a></li><li><a href="https://www.twitter.com/christi16526527"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">christi16526527</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is christina&#39;s little blog for writing something interesting or just sharing something happen in daily life.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
