@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<div class="header">
+				<h2 class="title_left">
+					<span class="left_span">
+						Christina
+					</span>
+				</h2>
+				<div class="header-image">
+					<img class="image_inner" src="https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2021/f0Q5-koh6ZcT1kSfk-a2.gif">
+				</div>
+				<h2 class="title_right">
+					<span class="right_span">
+						Blog
+					</span>
+				</h2>
+			</div>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About Me</a></li>
+	        		<li><a href="/contact">Contact Me</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+
+			{% for page in site.posts %}
+			<div class="card">
+				<div class="time">{{ page.date | date_to_string: "ordinal", "US" }}</div>
+				<a href={{ page.url }}>{{ page.title }}</a>
+			</div>
+			{% endfor %}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:headsteins@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/SteinsHead">github.com/SteinsHead</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
