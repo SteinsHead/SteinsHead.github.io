@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-15T18:27:42+08:00</updated><id>/feed.xml</id><title type="html">christina’s little blog</title><subtitle>This is christina's little blog for writing something interesting or just sharing something happen in daily life.</subtitle><entry><title type="html">发现了MarkDown的新功能</title><link href="/christina/update/2021/05/14/markdownNewFound.html" rel="alternate" type="text/html" title="发现了MarkDown的新功能" /><published>2021-05-14T13:25:00+08:00</published><updated>2021-05-14T13:25:00+08:00</updated><id>/christina/update/2021/05/14/markdownNewFound</id><content type="html" xml:base="/christina/update/2021/05/14/markdownNewFound.html">&lt;p&gt;今天突然发现了MarkDown的新功能，就是md格式支持插入html代码，真是非常有意思，下面是相关功能的演示&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-17T09:18:47+08:00</updated><id>/feed.xml</id><title type="html">christina’s little blog</title><subtitle>This is christina's little blog for writing something interesting or just sharing something happen in daily life.</subtitle><entry><title type="html">我又想起来了那个单纯的女孩</title><link href="/christina/update/2021/05/16/DirtyWings.html" rel="alternate" type="text/html" title="我又想起来了那个单纯的女孩" /><published>2021-05-16T13:25:00+08:00</published><updated>2021-05-16T13:25:00+08:00</updated><id>/christina/update/2021/05/16/DirtyWings</id><content type="html" xml:base="/christina/update/2021/05/16/DirtyWings.html"></content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">发现了MarkDown的新功能</title><link href="/christina/update/2021/05/14/markdownNewFound.html" rel="alternate" type="text/html" title="发现了MarkDown的新功能" /><published>2021-05-14T13:25:00+08:00</published><updated>2021-05-14T13:25:00+08:00</updated><id>/christina/update/2021/05/14/markdownNewFound</id><content type="html" xml:base="/christina/update/2021/05/14/markdownNewFound.html">&lt;p&gt;今天突然发现了MarkDown的新功能，就是md格式支持插入html代码，真是非常有意思，下面是相关功能的演示&lt;/p&gt;
 
 &lt;p&gt;我们都知道md插入图片的功能如何实现：&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![a short description](the url of the picture)
@@ -196,23 +196,4 @@
 &lt;p&gt;罗伯特·弗罗斯特的那首《未选择的路》，或许是对这种心情的真实写照。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2020/1363e69226.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;牧濑红莉栖做演讲的时候，或许也是一种自己的选择&lt;/center&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">个人感觉时常对于一个人应该做的事或者对于未来的规划，我自己时常会陷入矛盾之中，更简单的说是一种患得患失的精神状态。</summary></entry><entry><title type="html">Word Press似乎出现了一些问题</title><link href="/christina/update/1970/01/05/WordPressCrash.html" rel="alternate" type="text/html" title="Word Press似乎出现了一些问题" /><published>1970-01-05T00:01:00+08:00</published><updated>1970-01-05T00:01:00+08:00</updated><id>/christina/update/1970/01/05/WordPressCrash</id><content type="html" xml:base="/christina/update/1970/01/05/WordPressCrash.html">&lt;p&gt;当我想要在摘要里加入一些奇奇怪怪的东西的时候，他会崩溃&lt;/p&gt;
-
-&lt;p&gt;今天，当我在wordpress里的文章摘要里加入我文章开头的一段代码时，出现了错误，如下图所示：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2020/20201010200702.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;当我的网安大佬们得知这件事之后说：这是xss&lt;/p&gt;
-
-&lt;p&gt;那么什么是xss？&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/SteinsHead/ImageBed/img/2020/20201010200147.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;维基百科上的解释入上图所示，那么这个问题也就找到了，我的摘要是这样书写的：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;当我开始学习vue的时候，我已经不想在html页面中来加入&amp;lt;script&amp;gt;各种各样的脚本标签
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;注意到了吗，上面出现了html中常用的引入.js文件的标签，因此这就是这次事故的罪魁祸首，也许是wordpress让摘要中的文字直接显示成为了html，关于这一部分的内容，我还要在后面的学习中继续寻找答案&lt;/p&gt;
-
-&lt;p&gt;最后，如何消除这种影响，目前发现的解决办法，是可以通过加入转义符号”\”来消除影响的，但是代价也是有的，我们加入的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt;将不能显示在摘要中&lt;/p&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">当我想要在摘要里加入一些奇奇怪怪的东西的时候，他会崩溃</summary></entry></feed>
+&lt;center&gt;牧濑红莉栖做演讲的时候，或许也是一种自己的选择&lt;/center&gt;</content><author><name></name></author><category term="christina" /><category term="update" /><summary type="html">个人感觉时常对于一个人应该做的事或者对于未来的规划，我自己时常会陷入矛盾之中，更简单的说是一种患得患失的精神状态。</summary></entry></feed>
