@@ -7,6 +7,8 @@
     		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<script src="/js/live2d.js"></script>
+			
 		</head>
 		<body>
 			<div class="header">
@@ -44,11 +46,16 @@
 			{% endfor %}
 			
 			</div><!-- /.container -->
+			<canvas id="live2d" width="280" height="250"></canvas>
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:headsteins@gmail.com">email</a></li>
 	        		<li><a href="https://github.com/SteinsHead">github.com/SteinsHead</a></li>
 				</ul>
 			</footer>
+			<script>
+				loadlive2d("live2d", "wife2d/model.json");
+			</script>
 		</body>
+		
 	</html>
