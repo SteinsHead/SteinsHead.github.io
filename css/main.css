@@ -1,6 +1,6 @@
 @font-face {
     font-family: YuseiMagic;
-    src: url(/assets/fonts/YuseiMagic-Regular.ttf);
+    src: url("https://cdn.jsdelivr.net/gh/SteinsHead/CDNFile/fonts/YuseiMagic-Regular.ttf");
 }
 
 body {
