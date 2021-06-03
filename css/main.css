@@ -102,3 +102,9 @@ ul.posts li {
 .time {
     font-family: 'YuseiMagic';
 }
+
+.wife-posi {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
